@@ -9,21 +9,45 @@
 /* Begin PBXBuildFile section */
 		92C39A4F2ADD1272000211A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C39A4E2ADD1272000211A5 /* AppDelegate.swift */; };
 		92C39A512ADD1272000211A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C39A502ADD1272000211A5 /* SceneDelegate.swift */; };
-		92C39A532ADD1272000211A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C39A522ADD1272000211A5 /* ViewController.swift */; };
 		92C39A562ADD1272000211A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92C39A542ADD1272000211A5 /* Main.storyboard */; };
 		92C39A582ADD1275000211A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92C39A572ADD1275000211A5 /* Assets.xcassets */; };
 		92C39A5B2ADD1275000211A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92C39A592ADD1275000211A5 /* LaunchScreen.storyboard */; };
+		92C39A6A2ADD1318000211A5 /* ProductListVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C39A692ADD1318000211A5 /* ProductListVc.swift */; };
+		92C39A6D2ADD1335000211A5 /* ProductDetailsVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C39A6C2ADD1335000211A5 /* ProductDetailsVc.swift */; };
+		92C39A712ADD14B9000211A5 /* ProductListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C39A702ADD14B9000211A5 /* ProductListModel.swift */; };
+		92C39A732ADD14C7000211A5 /* ProductDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C39A722ADD14C7000211A5 /* ProductDetailsModel.swift */; };
+		92C39A7B2ADD18D1000211A5 /* ServicesProductDetials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C39A7A2ADD18D1000211A5 /* ServicesProductDetials.swift */; };
+		92C39A7D2ADD1995000211A5 /* ProductListVm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C39A7C2ADD1995000211A5 /* ProductListVm.swift */; };
+		92C39A7F2ADD19B3000211A5 /* ProductDetailsVm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C39A7E2ADD19B3000211A5 /* ProductDetailsVm.swift */; };
+		92C39A812ADD20F0000211A5 /* productListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C39A802ADD20F0000211A5 /* productListCell.swift */; };
+		92C39A842ADD558C000211A5 /* navigation+extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C39A832ADD558C000211A5 /* navigation+extention.swift */; };
+		92C39A872ADD6A11000211A5 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C39A862ADD6A10000211A5 /* Constant.swift */; };
+		92C39A8A2ADD7130000211A5 /* DataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C39A892ADD712F000211A5 /* DataBaseManager.swift */; };
+		D32CC371F2C2E6053CD4D4F0 /* Pods_RealmAssignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31EB6CDF00A673B89F328B1C /* Pods_RealmAssignment.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		31EB6CDF00A673B89F328B1C /* Pods_RealmAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealmAssignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58CC52CA85A22E453CFE45CA /* Pods-RealmAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmAssignment.debug.xcconfig"; path = "Target Support Files/Pods-RealmAssignment/Pods-RealmAssignment.debug.xcconfig"; sourceTree = "<group>"; };
 		92C39A4B2ADD1272000211A5 /* RealmAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealmAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92C39A4E2ADD1272000211A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92C39A502ADD1272000211A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		92C39A522ADD1272000211A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		92C39A552ADD1272000211A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		92C39A572ADD1275000211A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92C39A5A2ADD1275000211A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92C39A5C2ADD1275000211A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92C39A692ADD1318000211A5 /* ProductListVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListVc.swift; sourceTree = "<group>"; };
+		92C39A6C2ADD1335000211A5 /* ProductDetailsVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsVc.swift; sourceTree = "<group>"; };
+		92C39A702ADD14B9000211A5 /* ProductListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListModel.swift; sourceTree = "<group>"; };
+		92C39A722ADD14C7000211A5 /* ProductDetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsModel.swift; sourceTree = "<group>"; };
+		92C39A7A2ADD18D1000211A5 /* ServicesProductDetials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesProductDetials.swift; sourceTree = "<group>"; };
+		92C39A7C2ADD1995000211A5 /* ProductListVm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListVm.swift; sourceTree = "<group>"; };
+		92C39A7E2ADD19B3000211A5 /* ProductDetailsVm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsVm.swift; sourceTree = "<group>"; };
+		92C39A802ADD20F0000211A5 /* productListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productListCell.swift; sourceTree = "<group>"; };
+		92C39A832ADD558C000211A5 /* navigation+extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "navigation+extention.swift"; sourceTree = "<group>"; };
+		92C39A862ADD6A10000211A5 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		92C39A892ADD712F000211A5 /* DataBaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseManager.swift; sourceTree = "<group>"; };
+		B3E76FA7AAAF73BA39FB026D /* Pods-RealmAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmAssignment.release.xcconfig"; path = "Target Support Files/Pods-RealmAssignment/Pods-RealmAssignment.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D32CC371F2C2E6053CD4D4F0 /* Pods_RealmAssignment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E86DBF0A53485DE622EBED5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31EB6CDF00A673B89F328B1C /* Pods_RealmAssignment.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		92C39A422ADD1272000211A5 = {
 			isa = PBXGroup;
 			children = (
 				92C39A4D2ADD1272000211A5 /* RealmAssignment */,
 				92C39A4C2ADD1272000211A5 /* Products */,
+				E417DBB5568A40244A2C83C0 /* Pods */,
+				4E86DBF0A53485DE622EBED5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +91,122 @@
 		92C39A4D2ADD1272000211A5 /* RealmAssignment */ = {
 			isa = PBXGroup;
 			children = (
-				92C39A4E2ADD1272000211A5 /* AppDelegate.swift */,
-				92C39A502ADD1272000211A5 /* SceneDelegate.swift */,
-				92C39A522ADD1272000211A5 /* ViewController.swift */,
+				92C39A662ADD12A5000211A5 /* Applications */,
+				92C39A672ADD12AC000211A5 /* Utils */,
+				92C39A742ADD1879000211A5 /* Services */,
+				92C39A882ADD7101000211A5 /* DatabaseFiles */,
+				92C39A642ADD1298000211A5 /* Model */,
+				92C39A632ADD128D000211A5 /* ViewModel */,
+				92C39A622ADD1287000211A5 /* View */,
 				92C39A542ADD1272000211A5 /* Main.storyboard */,
 				92C39A572ADD1275000211A5 /* Assets.xcassets */,
 				92C39A592ADD1275000211A5 /* LaunchScreen.storyboard */,
 				92C39A5C2ADD1275000211A5 /* Info.plist */,
 			);
 			path = RealmAssignment;
+			sourceTree = "<group>";
+		};
+		92C39A622ADD1287000211A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				92C39A682ADD12FC000211A5 /* ProductList */,
+				92C39A6B2ADD131C000211A5 /* ProductDetails */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		92C39A632ADD128D000211A5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				92C39A7C2ADD1995000211A5 /* ProductListVm.swift */,
+				92C39A7E2ADD19B3000211A5 /* ProductDetailsVm.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		92C39A642ADD1298000211A5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				92C39A702ADD14B9000211A5 /* ProductListModel.swift */,
+				92C39A722ADD14C7000211A5 /* ProductDetailsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		92C39A662ADD12A5000211A5 /* Applications */ = {
+			isa = PBXGroup;
+			children = (
+				92C39A4E2ADD1272000211A5 /* AppDelegate.swift */,
+				92C39A502ADD1272000211A5 /* SceneDelegate.swift */,
+			);
+			path = Applications;
+			sourceTree = "<group>";
+		};
+		92C39A672ADD12AC000211A5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				92C39A852ADD6A05000211A5 /* Constant */,
+				92C39A822ADD5576000211A5 /* Extention */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		92C39A682ADD12FC000211A5 /* ProductList */ = {
+			isa = PBXGroup;
+			children = (
+				92C39A692ADD1318000211A5 /* ProductListVc.swift */,
+				92C39A802ADD20F0000211A5 /* productListCell.swift */,
+			);
+			path = ProductList;
+			sourceTree = "<group>";
+		};
+		92C39A6B2ADD131C000211A5 /* ProductDetails */ = {
+			isa = PBXGroup;
+			children = (
+				92C39A6C2ADD1335000211A5 /* ProductDetailsVc.swift */,
+			);
+			path = ProductDetails;
+			sourceTree = "<group>";
+		};
+		92C39A742ADD1879000211A5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				92C39A7A2ADD18D1000211A5 /* ServicesProductDetials.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		92C39A822ADD5576000211A5 /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				92C39A832ADD558C000211A5 /* navigation+extention.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		92C39A852ADD6A05000211A5 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				92C39A862ADD6A10000211A5 /* Constant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		92C39A882ADD7101000211A5 /* DatabaseFiles */ = {
+			isa = PBXGroup;
+			children = (
+				92C39A892ADD712F000211A5 /* DataBaseManager.swift */,
+			);
+			path = DatabaseFiles;
+			sourceTree = "<group>";
+		};
+		E417DBB5568A40244A2C83C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58CC52CA85A22E453CFE45CA /* Pods-RealmAssignment.debug.xcconfig */,
+				B3E76FA7AAAF73BA39FB026D /* Pods-RealmAssignment.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92C39A5F2ADD1275000211A5 /* Build configuration list for PBXNativeTarget "RealmAssignment" */;
 			buildPhases = (
+				DBBB1F5599CEA268779FF766 /* [CP] Check Pods Manifest.lock */,
 				92C39A472ADD1272000211A5 /* Sources */,
 				92C39A482ADD1272000211A5 /* Frameworks */,
 				92C39A492ADD1272000211A5 /* Resources */,
+				F3A7D16825B4717A56BD1518 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +277,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		DBBB1F5599CEA268779FF766 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RealmAssignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3A7D16825B4717A56BD1518 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RealmAssignment/Pods-RealmAssignment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RealmAssignment/Pods-RealmAssignment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RealmAssignment/Pods-RealmAssignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		92C39A472ADD1272000211A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92C39A532ADD1272000211A5 /* ViewController.swift in Sources */,
+				92C39A7D2ADD1995000211A5 /* ProductListVm.swift in Sources */,
 				92C39A4F2ADD1272000211A5 /* AppDelegate.swift in Sources */,
+				92C39A712ADD14B9000211A5 /* ProductListModel.swift in Sources */,
+				92C39A7B2ADD18D1000211A5 /* ServicesProductDetials.swift in Sources */,
+				92C39A732ADD14C7000211A5 /* ProductDetailsModel.swift in Sources */,
+				92C39A7F2ADD19B3000211A5 /* ProductDetailsVm.swift in Sources */,
+				92C39A6D2ADD1335000211A5 /* ProductDetailsVc.swift in Sources */,
+				92C39A812ADD20F0000211A5 /* productListCell.swift in Sources */,
+				92C39A6A2ADD1318000211A5 /* ProductListVc.swift in Sources */,
+				92C39A842ADD558C000211A5 /* navigation+extention.swift in Sources */,
 				92C39A512ADD1272000211A5 /* SceneDelegate.swift in Sources */,
+				92C39A872ADD6A11000211A5 /* Constant.swift in Sources */,
+				92C39A8A2ADD7130000211A5 /* DataBaseManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +478,7 @@
 		};
 		92C39A602ADD1275000211A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58CC52CA85A22E453CFE45CA /* Pods-RealmAssignment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -309,6 +506,7 @@
 		};
 		92C39A612ADD1275000211A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3E76FA7AAAF73BA39FB026D /* Pods-RealmAssignment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
