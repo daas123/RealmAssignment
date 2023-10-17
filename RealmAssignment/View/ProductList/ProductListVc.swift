@@ -19,7 +19,7 @@ class ProductListVc: UIViewController {
     }
     
     func getData(){
-        viewmodel.getProductList{
+        viewmodel.getProductList(id: 1){
             res in
             DispatchQueue.main.async {
                 if res.isEmpty{
@@ -54,5 +54,16 @@ extension ProductListVc : UITableViewDataSource , UITableViewDelegate{
         return cell
     }
     
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let vc = storyboard?.instantiateViewController(withIdentifier: "ProductDetailsVc") as! ProductDetailsVc
+        vc.productid = viewmodel.ProductData?.data?[indexPath.row].id
+        vc.deligate = self
+        navigationController?.pushViewController(vc, animated: true)
+    }
+}
+
+extension ProductListVc : Reload{
+    func reloadData() {
+        tblViewProductList.reloadData()
+    }
 }

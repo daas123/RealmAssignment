@@ -6,21 +6,26 @@
 //
 
 import Foundation
+protocol Reload{
+    func reloadData()
+}
 class ProductListVm{
-    let services = ServicesProductDetials()
+    let services = ProductListApiService()
     var ProductData : ProductListModel?
-    func getProductList(complition:@escaping (String)->Void){
-        services.getProductList{
+    func getProductList(id : Int,complition:@escaping (String)->Void){
+        services.getProductList(product_category_id: id ){
             dataRecived in
-            guard dataRecived?.status == 200 else{
-                complition("Data fecthing failed")
-                return
+            switch dataRecived {
+            case .success(let data):
+                self.ProductData = data
+                complition("")
+            case .failure(let error):
+                print(error.localizedDescription)
+                complition("Something Went Wrong")
             }
-            self.ProductData = dataRecived
-            complition("")
         }
     }
-    
+
     func addDataToDataBase(data : ProductFav){
         DataBasemanager.shared.saveContacts(data: data)
     }

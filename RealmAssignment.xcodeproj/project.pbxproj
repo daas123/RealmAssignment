@@ -16,13 +16,15 @@
 		92C39A6D2ADD1335000211A5 /* ProductDetailsVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C39A6C2ADD1335000211A5 /* ProductDetailsVc.swift */; };
 		92C39A712ADD14B9000211A5 /* ProductListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C39A702ADD14B9000211A5 /* ProductListModel.swift */; };
 		92C39A732ADD14C7000211A5 /* ProductDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C39A722ADD14C7000211A5 /* ProductDetailsModel.swift */; };
-		92C39A7B2ADD18D1000211A5 /* ServicesProductDetials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C39A7A2ADD18D1000211A5 /* ServicesProductDetials.swift */; };
 		92C39A7D2ADD1995000211A5 /* ProductListVm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C39A7C2ADD1995000211A5 /* ProductListVm.swift */; };
-		92C39A7F2ADD19B3000211A5 /* ProductDetailsVm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C39A7E2ADD19B3000211A5 /* ProductDetailsVm.swift */; };
 		92C39A812ADD20F0000211A5 /* productListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C39A802ADD20F0000211A5 /* productListCell.swift */; };
 		92C39A842ADD558C000211A5 /* navigation+extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C39A832ADD558C000211A5 /* navigation+extention.swift */; };
 		92C39A872ADD6A11000211A5 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C39A862ADD6A10000211A5 /* Constant.swift */; };
 		92C39A8A2ADD7130000211A5 /* DataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C39A892ADD712F000211A5 /* DataBaseManager.swift */; };
+		92CB5EC22ADE955900D64D11 /* ProductServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CB5EBE2ADE955800D64D11 /* ProductServices.swift */; };
+		92CB5EC32ADE955900D64D11 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CB5EC02ADE955900D64D11 /* ApiService.swift */; };
+		92CB5EC42ADE955900D64D11 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CB5EC12ADE955900D64D11 /* ApiManager.swift */; };
+		92CB5ECD2ADE987E00D64D11 /* ProductDetailsVm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CB5ECC2ADE987E00D64D11 /* ProductDetailsVm.swift */; };
 		D32CC371F2C2E6053CD4D4F0 /* Pods_RealmAssignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31EB6CDF00A673B89F328B1C /* Pods_RealmAssignment.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,13 +42,15 @@
 		92C39A6C2ADD1335000211A5 /* ProductDetailsVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsVc.swift; sourceTree = "<group>"; };
 		92C39A702ADD14B9000211A5 /* ProductListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListModel.swift; sourceTree = "<group>"; };
 		92C39A722ADD14C7000211A5 /* ProductDetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsModel.swift; sourceTree = "<group>"; };
-		92C39A7A2ADD18D1000211A5 /* ServicesProductDetials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesProductDetials.swift; sourceTree = "<group>"; };
 		92C39A7C2ADD1995000211A5 /* ProductListVm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListVm.swift; sourceTree = "<group>"; };
-		92C39A7E2ADD19B3000211A5 /* ProductDetailsVm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsVm.swift; sourceTree = "<group>"; };
 		92C39A802ADD20F0000211A5 /* productListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productListCell.swift; sourceTree = "<group>"; };
 		92C39A832ADD558C000211A5 /* navigation+extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "navigation+extention.swift"; sourceTree = "<group>"; };
 		92C39A862ADD6A10000211A5 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		92C39A892ADD712F000211A5 /* DataBaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseManager.swift; sourceTree = "<group>"; };
+		92CB5EBE2ADE955800D64D11 /* ProductServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductServices.swift; sourceTree = "<group>"; };
+		92CB5EC02ADE955900D64D11 /* ApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		92CB5EC12ADE955900D64D11 /* ApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		92CB5ECC2ADE987E00D64D11 /* ProductDetailsVm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsVm.swift; sourceTree = "<group>"; };
 		B3E76FA7AAAF73BA39FB026D /* Pods-RealmAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmAssignment.release.xcconfig"; path = "Target Support Files/Pods-RealmAssignment/Pods-RealmAssignment.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,8 +97,8 @@
 			children = (
 				92C39A662ADD12A5000211A5 /* Applications */,
 				92C39A672ADD12AC000211A5 /* Utils */,
-				92C39A742ADD1879000211A5 /* Services */,
 				92C39A882ADD7101000211A5 /* DatabaseFiles */,
+				92CB5EBD2ADE953000D64D11 /* Services */,
 				92C39A642ADD1298000211A5 /* Model */,
 				92C39A632ADD128D000211A5 /* ViewModel */,
 				92C39A622ADD1287000211A5 /* View */,
@@ -119,7 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				92C39A7C2ADD1995000211A5 /* ProductListVm.swift */,
-				92C39A7E2ADD19B3000211A5 /* ProductDetailsVm.swift */,
+				92CB5ECC2ADE987E00D64D11 /* ProductDetailsVm.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -168,14 +172,6 @@
 			path = ProductDetails;
 			sourceTree = "<group>";
 		};
-		92C39A742ADD1879000211A5 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				92C39A7A2ADD18D1000211A5 /* ServicesProductDetials.swift */,
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
 		92C39A822ADD5576000211A5 /* Extention */ = {
 			isa = PBXGroup;
 			children = (
@@ -198,6 +194,24 @@
 				92C39A892ADD712F000211A5 /* DataBaseManager.swift */,
 			);
 			path = DatabaseFiles;
+			sourceTree = "<group>";
+		};
+		92CB5EBD2ADE953000D64D11 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				92CB5EBF2ADE955900D64D11 /* Api */,
+				92CB5EBE2ADE955800D64D11 /* ProductServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		92CB5EBF2ADE955900D64D11 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				92CB5EC02ADE955900D64D11 /* ApiService.swift */,
+				92CB5EC12ADE955900D64D11 /* ApiManager.swift */,
+			);
+			path = Api;
 			sourceTree = "<group>";
 		};
 		E417DBB5568A40244A2C83C0 /* Pods */ = {
@@ -324,18 +338,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92CB5EC22ADE955900D64D11 /* ProductServices.swift in Sources */,
 				92C39A7D2ADD1995000211A5 /* ProductListVm.swift in Sources */,
 				92C39A4F2ADD1272000211A5 /* AppDelegate.swift in Sources */,
 				92C39A712ADD14B9000211A5 /* ProductListModel.swift in Sources */,
-				92C39A7B2ADD18D1000211A5 /* ServicesProductDetials.swift in Sources */,
 				92C39A732ADD14C7000211A5 /* ProductDetailsModel.swift in Sources */,
-				92C39A7F2ADD19B3000211A5 /* ProductDetailsVm.swift in Sources */,
+				92CB5ECD2ADE987E00D64D11 /* ProductDetailsVm.swift in Sources */,
 				92C39A6D2ADD1335000211A5 /* ProductDetailsVc.swift in Sources */,
+				92CB5EC42ADE955900D64D11 /* ApiManager.swift in Sources */,
 				92C39A812ADD20F0000211A5 /* productListCell.swift in Sources */,
 				92C39A6A2ADD1318000211A5 /* ProductListVc.swift in Sources */,
 				92C39A842ADD558C000211A5 /* navigation+extention.swift in Sources */,
 				92C39A512ADD1272000211A5 /* SceneDelegate.swift in Sources */,
 				92C39A872ADD6A11000211A5 /* Constant.swift in Sources */,
+				92CB5EC32ADE955900D64D11 /* ApiService.swift in Sources */,
 				92C39A8A2ADD7130000211A5 /* DataBaseManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
